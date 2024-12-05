@@ -1,0 +1,146 @@
+
+
+@font-face {
+    font-family: HelveticaNeuecyr;
+    src: url(
+        "assets/fonts/helveticaneuecyr_AjQz9/HelveticaNeueCyr/HelveticaNeueCyr Medium"
+    );
+    font-style: normal;
+}
+.nav-container{
+    max-width: 100%;
+    .navbar{
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        padding: 10px 0;
+        color: #000000;
+    
+        .navbar-top{
+            width: auto;
+            display: flex;
+            gap: 500px;
+            justify-content: center;
+            align-items: start;
+            font-family: HelveticaNeuecyr;
+       
+            .nav-logo{
+                width: auto;
+                display: flex;
+                gap: 20px;
+                align-items: center;
+              
+                img{
+                    width: 184px;
+                    height: 55px;
+    
+                }
+                p{
+                    width: 101px;
+                    font-size: 10px;
+                    font-weight: 300;
+                    line-height:9.88px ;
+                  
+                }
+            }
+            .nav-networking{
+                width: auto;
+                display: flex;
+                gap: 50px;
+                .nav-connect{
+                    width: auto;
+                    display: flex;
+                    gap: 9px;
+                    flex-direction: column;
+                    
+                    
+                    p{
+                        font-size: 16px;
+                        font-weight: 300;
+                        line-height: 15.81px;
+                    }
+                    .nav-icons{
+                        width: auto;
+                        display: flex;
+                        gap: 5px;
+                        justify-content: center;
+                        font-size: 30px;
+                        li:first-child{
+                            width: auto;
+                            i{
+                                color: #94C11F;
+        
+                            }
+                           
+                          
+    
+                        }
+                        li:last-child{
+                            width: auto;
+                            i{
+                                color: #01A0EB;
+        
+                            }
+    
+                        }
+                       
+    
+    
+                    }
+                }
+                .nav-contact{
+                    width: auto;
+                    display: flex;
+                    gap: 15px;
+                    flex-direction: column;
+                    align-items: center;
+                    p{
+                        font-size: 16px;
+                        font-weight: 300;
+                        line-height: 15.81px;
+                    }
+                    h3{
+                        font-size: 24px;
+                        font-weight: 700;
+                        line-height: 23.88px;
+                     
+                    }
+                }
+            }
+        }
+        .navbar-bottom{
+            width: 100%;
+            display: block;
+            
+
+          
+            hr{
+                width: 100%;
+                margin: 30px 0;
+            }
+            ul{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                li{
+                    width: auto;
+                    font-size: 16px;
+                    font-weight: 300;
+                    line-height: 15.81px;
+                    a{
+                        color: #000000 !important;
+                        font-family: HelveticaNeuecyr;
+
+                    }
+                
+                    
+
+                }
+            }
+        }
+
+       
+    }
+    
+}

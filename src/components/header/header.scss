@@ -1,0 +1,140 @@
+
+@font-face {
+    font-family: HelveticaNeuecyr;
+    src: url(
+        "assets/fonts/helveticaneuecyr_AjQz9/HelveticaNeueCyr/HelveticaNeueCyr Medium"
+    );
+    font-style: normal;
+}
+
+.h-container{
+    max-width: 100%;
+    position: relative;
+    .header{
+        width: 80%;
+        margin: 70px auto 50px  ;
+        font-family: HelveticaNeuecyr;
+        .header-top{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+
+            // border: 1px solid red;
+            .header-left{
+                width: 50%;
+                
+                .header-subtitle{
+                    width: 100%;
+                    display: flex;
+                    gap: 11px;
+                    align-items: center;
+                    hr{
+                        width: 8%;
+                        height: 0;
+                        color: #000000;
+                    }
+                    p{
+                        font-size: 20px;
+                        font-weight: 300;
+                        line-height: 19.76px;
+                    }
+                }
+                h1{
+                    width: 60%;
+                    font-size: 40px;
+                    font-weight: 400;
+                    line-height: 56.44px;
+                    margin: 8px 0 7px;
+                    span{
+                        color: #94C11F;
+                    }
+                }
+                p{
+                    width: 76%;
+                    font-size: 18px;
+                    font-weight: 300;
+                    line-height: 27px;
+                    span{
+                        font-weight: 550;
+                    }
+                }
+
+                .header-btn{
+                    width: auto;
+                    margin: 23px 0 38px;
+                    img{
+                        width: 116px;
+                        position: absolute;
+                        left: 100px;
+                    }
+                    a{
+                        width: auto;
+                       
+                        button{
+                            padding: 17px 40px;
+                            border: none;
+                            background-color: #94C11F;
+                            color: #FFFFFF; 
+                            border-radius: 10px;
+
+
+                            h2{
+                            font-size: 18px;
+                            font-weight: 300;
+                            line-height: 27px;
+
+                        }
+                        // p{
+                        //     width: 100%;
+                        //     font-size: 12px;
+                        //     font-weight: 30px;
+                        //     line-height: 12px;
+                        //    }
+                            h2{
+                                font-size: 18px;
+                                font-weight: 300;
+                                line-height: 27px;
+    
+                            }
+                            p{
+                                width: 100%;
+                                font-size: 12px;
+                                font-weight: 30px;
+                                line-height: 12px;
+                                margin-top: 5px;
+                               }
+
+
+                        }
+                        
+
+                    }
+                }
+            }
+            .header-right{
+                width: 50%;
+                // height: 100%;
+                display: flex;
+                border: 2px solid green;
+                .header-img-left{
+                    width: 50%;
+                    img{
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+                .header-img-right{
+                    width: 50%;
+                    display: block;
+                    img{
+                        width: 70%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+       
+
+    }
+}
