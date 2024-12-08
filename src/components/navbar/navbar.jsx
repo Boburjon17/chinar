@@ -34,14 +34,14 @@ const Navbar = () => {
             <div className="navbar-bottom">
             <hr />
              <ul>
-                <li><Link  to={'/'}  >Главная</Link></li>
-                <li><Link to={'/kаталог'} >Каталог</Link></li>
-                <li><Link to={'/гарантии'} >Гарантии</Link></li>
-                <li><Link to={'/продукты'} >Продукты</Link></li>
-                <li><Link to={'/компании'} >О компании</Link></li>
-                <li><Link to={'/доставка'} >Доставка</Link></li>
-                <li><Link to={'/производство'} >Производство</Link></li>
-                <li><Link to={'/контакты'} >Контакты</Link></li>
+                <li><a href='#'>Главная</a></li>
+                <li><a href='#'>Каталог</a></li>
+                <li><a href='#'>Гарантии</a></li>
+                <li><a href='#'>Продукты</a></li>
+                <li><a href='#'>О компании</a></li>
+                <li><a href='#'>Доставка</a></li>
+                <li><a href='#'>Производство</a></li>
+                <li><a href='#'>Контакты</a></li>
                
                
              </ul>

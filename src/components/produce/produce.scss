@@ -1,0 +1,110 @@
+.produce-container{
+    max-width: 100%;
+    .produce{
+        width: 80%;
+        height: auto;
+        margin:  0 auto;
+        font-family: "Roboto", serif;
+        h1{
+            width: 50%;
+            font-size: 40px;
+            font-weight: 400;
+            line-height: 56.44px;
+            color: #000000;
+           margin: 0 auto;
+           text-align: center;
+           
+        }
+        p{
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 27px;
+            color: #000000;
+            text-align: center;
+           margin: 9px 0 35px;
+        }
+
+        .produce-b-img{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            .produce-img-small{
+                width: 24%;
+                height: auto;
+                display: flex;
+                border-radius: 10.15px;
+                background-repeat: no-repeat;
+                background-size: cover;
+               
+                
+                .produce-img-text{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    margin: 15px 0 199px 15px;
+                    h3{
+                        width: auto;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 27px;
+                        color: #FFFFFF;
+                        
+                    }
+                    a{
+                        width: auto;
+                        button{
+                            padding: 5px 14px;
+                            border-radius: 3px;
+                            background-color: #67C15E;
+                            color: #000000;
+                            font-size: 10px;
+                            font-weight: 300;
+                           line-height: 15px;
+                           border: none;
+
+                        }
+                    }
+                    
+
+                }
+
+                &:first-child{
+                    background-image: url('src/assets/images/produce-b-img1.png');
+                }
+                &:nth-child(2){
+                    background-image: url('src/assets/images/produce-b-img2.png');
+                }
+                &:nth-child(3){
+                    background-image: url('src/assets/images/produce-b-img3.png');
+                }
+                &:last-child{
+                    background-image: url('src/assets/images/produce-b-img4.png');
+                }
+            }
+            
+        }
+         h2{
+            width: 50%;
+            font-size: 40px;
+            font-weight: 400;
+            line-height: 56.44px;
+            color: #000000;
+            margin: 65px auto 6px;
+           text-align: center;
+           
+        }
+        h6{
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 27px;
+            color: #000000;
+            text-align: center;
+           
+        }
+
+       
+    }
+}

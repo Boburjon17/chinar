@@ -15,7 +15,7 @@ const Header = () => {
                 <p>от производителя</p>
             </div>
             <h1> <span>Плетённая</span> мебель для вашего бизнеса</h1>
-            <p>Представляем специальную коллекцию плетеной мебели для бизнеса –<span> от элегантных стульев и столов для кафе и ресторанов до уютных уголков для отдыха и лаунж-зон.</span>  </p>
+            <h4>Представляем специальную коллекцию плетеной мебели для бизнеса –<span> от элегантных стульев и столов для кафе и ресторанов до уютных уголков для отдыха и лаунж-зон.</span>  </h4>
             <div className="header-btn">
                 <img src={headerBtn} alt="" />
                 <a href="#"><button> <h2>СКАЧАТЬ КАТАЛОГ</h2> <p>более 200 видов мебели</p></button></a>
@@ -37,21 +37,21 @@ const Header = () => {
             <div className="header-bottom">
                 <ul>
                     <li>
-                        <label htmlFor="">
-                            <input type="checkbox" />
+                        <label htmlFor="checkbox1" >
+                            <input type="checkbox" id='checkbox1' />
                             <p>Гарантия от 3 лет на всю продукцию</p>
                         </label>
                     </li>
                     <li>
-                        <label htmlFor="">
-                            <input type="checkbox" />
+                        <label htmlFor="checkbox2">
+                            <input type="checkbox"  id='checkbox2'/>
                             <p>Доставка от 30.000 сум до двери</p>
                         </label>
                     </li>
 
                     <li>
-                        <label htmlFor="">
-                            <input type="checkbox" />
+                        <label  htmlFor="checkbox3">
+                            <input type="checkbox" id='checkbox3' />
                             <p>Оплата по факту просмотра мебели</p>
                         </label>
                     </li>
