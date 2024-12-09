@@ -17,7 +17,10 @@ const Header = () => {
             <h1> <span>Плетённая</span> мебель для вашего бизнеса</h1>
             <h4>Представляем специальную коллекцию плетеной мебели для бизнеса –<span> от элегантных стульев и столов для кафе и ресторанов до уютных уголков для отдыха и лаунж-зон.</span>  </h4>
             <div className="header-btn">
-                <img src={headerBtn} alt="" />
+                <div className="header-btn-img">
+                {/* <img src={headerBtn} alt="" /> */}
+                </div>
+               
                 <a href="#"><button> <h2>СКАЧАТЬ КАТАЛОГ</h2> <p>более 200 видов мебели</p></button></a>
             </div>
         </div>

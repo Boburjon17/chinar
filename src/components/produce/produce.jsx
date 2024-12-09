@@ -2,6 +2,7 @@ import React from "react";
 import "./produce.scss";
 import produceBoxImg1 from '../../assets/images/produce-box1.png'
 import produceBoxImg2 from '../../assets/images/produce-box2.png'
+import produceBigImage from '../../assets/images/produce-big-img.png'
 const Produce = () => {
   return (
     <div className="produce-container">
@@ -153,8 +154,15 @@ const Produce = () => {
 
            
         </div>
+        <div className="produce-big-background" >
+          <img src={produceBigImage} alt="" />
+                   </div>
 
-        <a href="#"><button> ПЕРЕЙТИ В КАТАЛОГ</button></a>
+          <div className="produce-btn">
+          <a href="#"><button> ПЕРЕЙТИ В КАТАЛОГ</button></a>
+
+          </div>
+
       </div>
     </div>
   );
