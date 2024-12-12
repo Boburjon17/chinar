@@ -1,0 +1,122 @@
+.footer-container{
+    max-width: 100%;
+    .footer{
+        max-width: 1200px;
+        margin: 0 auto;
+        .footer-questions{
+            width: 100%;
+            h1{
+                font-size: 40px;
+                font-weight: 400;
+                line-height: 56.44px;
+                color: #000000;
+                font-family: "Viaoda Libre", serif;
+                margin: 50px 0 20px;
+            }
+            a{
+                width: auto;
+                button{
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 27px;
+                    color: #FFFFFF;
+                    padding: 14px 40px   ;
+                    background-color: #94C11F;
+                    border-radius: 10px;
+                    border: none;
+                }
+            }
+        }
+        .navbar-top{
+            width: auto;
+            display: flex;
+             padding: 10px 0;
+            justify-content: space-between;
+            align-items: start;
+            font-family: "Viaoda Libre", serif;
+            margin-top:30px ;
+       
+            .nav-logo{
+                width: auto;
+                display: flex;
+                gap: 20px;
+                align-items: center;
+              
+                img{
+                    width: 184px;
+                    height: 55px;
+    
+                }
+                p{
+                    width: 101px;
+                    font-size: 10px;
+                    font-weight: 300;
+                    line-height:9.88px ;
+                  
+                }
+            }
+            .nav-networking{
+                width: auto;
+                display: flex;
+                gap: 50px;
+                .nav-connect{
+                    width: auto;
+                    display: flex;
+                    gap: 9px;
+                    flex-direction: column;
+                    p{
+                        font-size: 16px;
+                        font-weight: 300;
+                        line-height: 15.81px;
+                    }
+                    .nav-icons{
+                        width: auto;
+                        display: flex;
+                        gap: 5px;
+                        justify-content: center;
+                        font-size: 30px;
+                        li:first-child{
+                            width: auto;
+                            i{
+                                color: #94C11F;
+        
+                            }
+                           
+                          
+    
+                        }
+                        li:last-child{
+                            width: auto;
+                            i{
+                                color: #01A0EB;
+        
+                            }
+    
+                        }
+                       
+    
+    
+                    }
+                }
+                .nav-contact{
+                    width: auto;
+                    display: flex;
+                    gap: 15px;
+                    flex-direction: column;
+                    align-items: center;
+                    p{
+                        font-size: 16px;
+                        font-weight: 300;
+                        line-height: 15.81px;
+                    }
+                    h3{
+                        font-size: 24px;
+                        font-weight: 700;
+                        line-height: 23.88px;
+                     
+                    }
+                }
+            }
+        }
+    }
+}

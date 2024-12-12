@@ -3,10 +3,15 @@ import "./produce.scss";
 import produceBoxImg1 from '../../assets/images/produce-box1.png'
 import produceBoxImg2 from '../../assets/images/produce-box2.png'
 import produceBigImage from '../../assets/images/produce-big-img.png'
+import { useNavigate } from "react-router-dom";
 const Produce = () => {
+  const navigate= useNavigate()
+  const handlePage= ()=>{
+    navigate("/Каталог")
+  }
   return (
     <div className="produce-container">
-      <div className="produce">
+      <div id='Катало' className="produce">
         <h1>Производим 4 основных категории мебели</h1>
         <p>более 200 видов продуктов во всем ассортименте</p>
 
@@ -59,7 +64,7 @@ const Produce = () => {
           <li>Шезлонги</li>
         </ul>
 
-        <div className="produce-boxes">
+        <div id="Продукты" className="produce-boxes">
             <div className="produce-box">
                 <div className="produce-box-img">
                     <img src= {produceBoxImg1} alt="" />
@@ -159,7 +164,7 @@ const Produce = () => {
                    </div>
 
           <div className="produce-btn">
-          <a href="#"><button> ПЕРЕЙТИ В КАТАЛОГ</button></a>
+          <a onClick={handlePage} ><button> ПЕРЕЙТИ В КАТАЛОГ</button></a>
 
           </div>
 

@@ -1,7 +1,7 @@
 .produce-container{
     max-width: 100%;
     .produce{
-        width: 80%;
+        max-width: 1200px;
         height: auto;
         margin:  0 auto;
         font-family: "Roboto", serif;
@@ -123,11 +123,13 @@
                 color: #292929;
                 padding: 5px 15px;
                 border-radius: 5px;
-                transition: all .4s ease;
+              
                 &:hover{
+                    transition: all .5s ease;
                     color: #FFFFFF;
                     background-color: #292929;
                     font-weight: 400;
+                  
                 }
 
             }

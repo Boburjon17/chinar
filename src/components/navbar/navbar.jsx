@@ -3,12 +3,24 @@ import "./navbar.scss"
 import logo from "../../assets/images/logo.png"
 import {  Link } from 'react-router-dom'
 
-const Navbar = () => {
-  return (
+const Navbar = ({homeRef,catologRef,garantiRef,produceRef,companiRef,deliveryRef, productionRef, contactRef}) => {
+  
+ 
+    const scrollToSection = (sectionRef) => {
+      
+          sectionRef.current.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+          });
+        
+      };
+      
+  
+    return (
     <nav className='nav-container'>
         <div className="navbar">
             <div className="navbar-top">
-            <div className="nav-logo">
+            <div href="#" className="nav-logo">
                 <img src={logo} alt="" />
                 <p>Производство плетенной мебели премиун класса в Ташкенте</p>
             </div>
@@ -34,14 +46,14 @@ const Navbar = () => {
             <div className="navbar-bottom">
             <hr />
              <ul>
-                <li><a href='#'>Главная</a></li>
-                <li><a href='#'>Каталог</a></li>
-                <li><a href='#'>Гарантии</a></li>
-                <li><a href='#'>Продукты</a></li>
-                <li><a href='#'>О компании</a></li>
-                <li><a href='#'>Доставка</a></li>
-                <li><a href='#'>Производство</a></li>
-                <li><a href='#'>Контакты</a></li>
+                <li><a href='#Главная'     onClick={()=>scrollToSection(homeRef)}>Главная</a></li>
+                <li><a href='#Катало'     onClick={()=>scrollToSection(catologRef)}>Каталог</a></li>
+                <li><a href='#Гарантии'    onClick={()=>scrollToSection(garantiRef)}>Гарантии</a></li>
+                <li><a href='#Продукты'    onClick={()=>scrollToSection(produceRef)}>Продукты</a></li>
+                <li><a href='#О компании'  onClick={()=>scrollToSection(companiRef)}>О компании</a></li>
+                <li><a href='#Доставка'    onClick={()=>scrollToSection(deliveryRef)}>Доставка</a></li>
+                <li><a href='#Производство'onClick={()=>scrollToSection(productionRef)}>Производство</a></li>
+                <li><a href='#Контакты'    onClick={()=>scrollToSection(contactRef)}>Контакты</a></li>
                
                
              </ul>

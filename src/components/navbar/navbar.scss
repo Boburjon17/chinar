@@ -2,13 +2,17 @@
 
 .nav-container{
     max-width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #FFFFFF;
     .navbar{
         width: 80%;
         height: auto;
         margin: 0 auto;
         padding: 10px 0;
         color: #000000;
-    
+        
         .navbar-top{
             width: auto;
             display: flex;
